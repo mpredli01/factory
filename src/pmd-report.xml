@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="3.9" timestamp="2007-01-07T10:56:50.546" elapsedTime="0s">
+<file name="C:\java-apps\publications\factory\src\factory\Car.java">
+<violation line="11" rule="UnusedImports" ruleset="Import Statement Rules" package="factory" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.ArrayList'
+</violation>
+<violation line="13" rule="AbstractClassWithoutAbstractMethod" ruleset="Design Rules" package="factory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#AbstractClassWithoutAbstractMethod" priority="3">
+This abstract class does not have any abstract methods
+</violation>
+</file>
+<file name="C:\java-apps\publications\factory\src\factory\FordFactory.java">
+<violation line="15" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="factory" class="FordFactory" method="createCar" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation line="17" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="factory" class="FordFactory" method="createCar" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="C:\java-apps\publications\factory\src\factory\GeneralMotorsFactory.java">
+<violation line="15" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="factory" class="GeneralMotorsFactory" method="createCar" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation line="17" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="factory" class="GeneralMotorsFactory" method="createCar" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation line="19" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="factory" class="GeneralMotorsFactory" method="createCar" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation line="21" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="factory" class="GeneralMotorsFactory" method="createCar" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="C:\java-apps\publications\factory\src\factory\OrderCars.java">
+<violation line="9" rule="UseSingleton" ruleset="Design Rules" package="factory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation line="18" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="factory" class="OrderCars" method="main" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'car'.
+</violation>
+</file>
+</pmd>

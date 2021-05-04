@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.redlich.factory.OrderCars'
+
+jar {
+    baseName = 'factory'
+    version = '1.0.0'
+    }
